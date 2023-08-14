@@ -17,17 +17,17 @@ interface CountrySelectProps {
 }
 
 const customStyles = {
-  control: (provided, state) => ({
+  control: (provided: any, state: any) => ({
     ...provided,
-    background: '#404040', // Set the background color
-    color: 'white', // Set the text color
+    background: '#404040',
+    color: 'white',
     border: state.isFocused ? '2px solid #afafaf' : '2px solid #afafaf',
     boxShadow: 'none',
     '&:hover': {
       border: state.isFocused ? '2px solid #3182ce' : '2px solid #718096',
     },
   }),
-  menu: (provided) => ({
+  menu: (provided: any) => ({
     ...provided,
     background: '#6B6B6B',
     boxShadow: 'none',
