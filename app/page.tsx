@@ -53,5 +53,5 @@ const Home = async ({
     </ClientOnly>
   )
 }
-
+export const dynamic = 'force-dynamic';
 export default Home;
